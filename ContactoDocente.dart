@@ -199,11 +199,6 @@ void main() {
         }
         print(" ");
 
-      case 9:
-        print("----------------------");
-        print("-----Ejercicio 9------");
-        print(" ");
-
       case 10:
         print("----------------------");
         print("-----Ejercicio 10------");
@@ -283,7 +278,7 @@ void main() {
         print(" ");
 
       case 13:
-        print("----------------------");
+        print("------------------------");
         print("-----Ejercicio 1.3------");
         print(" ");
         print("Ingrese el número: ");
@@ -292,21 +287,21 @@ void main() {
         print(" ");
 
       case 14:
-        print("----------------------");
+        print("------------------------");
         print("-----Ejercicio 1.4------");
         print(" ");
         print("La suma de los cuadrados hasta el 50 es: ${sumaCuadrados()}");
         print(" ");
 
       case 15:
-        print("----------------------");
+        print("------------------------");
         print("-----Ejercicio 1.5------");
         print(" ");
         print("La suma de la serie armonica es: ${sumaSerieArmonica()}");
         print(" ");
 
       case 16:
-        print("----------------------");
+        print("------------------------");
         print("-----Ejercicio 1.6 Extra------");
         print(" ");
         print(" Serie de fibonacci: ");
@@ -318,7 +313,7 @@ void main() {
         print(" ");
 
       case 17:
-        print("----------------------");
+        print("------------------------");
         print("-----Ejercicio 2.1------");
         print(" ");
         print("Ejercicio a Números pares");
@@ -326,7 +321,7 @@ void main() {
         print(" ");
 
       case 18:
-        print("----------------------");
+        print("------------------------");
         print("-----Ejercicio 2.2------");
         print(" ");
         print("Ejercicio b Buscar elemento");
@@ -336,7 +331,7 @@ void main() {
         print(" ");
 
       case 19:
-        print("----------------------");
+        print("------------------------");
         print("-----Ejercicio 2.3------");
         print(" ");
         print("Ejercicio c Indices");
@@ -346,7 +341,7 @@ void main() {
         print(" ");
 
       case 20:
-        print("----------------------");
+        print("------------------------");
         print("-----Ejercicio 2.4------");
         print(" ");
         print("Ejercicio d Data");
@@ -371,7 +366,7 @@ void main() {
         print(" ");
 
       case 21:
-        print("----------------------");
+        print("------------------------");
         print("-----Ejercicio 2.5------");
         print(" ");
         print("Ejercicio e Gastos Mensuales");
@@ -429,7 +424,7 @@ void main() {
         print("El mayor gasto es: $valMax de la categoria $categoriaMax");
 
       case 91:
-        print("----------------------");
+        print("------------------------");
         print("----- Ejercio Extra 1------");
         print(" ");
 
@@ -446,7 +441,7 @@ void main() {
         print("");
 
       case 92:
-        print("----------------------");
+        print("------------------------");
         print("----- Ejercio Extra 2------");
         print(" Imprime Rango ");
         print("Ingrese numero inicial: ");
@@ -464,7 +459,7 @@ void main() {
         //suma los numeros que se ingresen por consola
         //si el usuario ingresa numero negativo termina de sumar
 
-        print("----------------------");
+        print("------------------------");
         print("----- Ejercio Extra 3------");
         print(" Suma infinita ");
         int suma = 0;
@@ -483,10 +478,10 @@ void main() {
         print(" ");
 
       case 99:
-        print("PROGRAMA FINALIZADO");
+        print("-----PROGRAMA FINALIZADO-----");
         break;
       default:
-        print("OPCION INVALIDA");
+        print("-----OPCION INVALIDA-----");
         break;
     }
   } while (opcion != 99);
